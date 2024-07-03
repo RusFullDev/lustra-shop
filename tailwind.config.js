@@ -11,11 +11,16 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: '2rem',    
+      padding: '16px',
+      screens: {
+        xl: '1332px',
+        '2xl': '1332px',
+      }    
     },
     extend: {
       colors:{
-        grayn:'#454545'
+        grayn:'#454545',
+        foot:'#F2F2F2'
       }
     },
   },

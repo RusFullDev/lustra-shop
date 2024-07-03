@@ -13,9 +13,11 @@
     "@pinia/nuxt": "^0.5.1",
     "autoprefixer": "^10.4.19",
     "nuxt": "^3.12.2",
+    "nuxt-swiper": "^1.2.2",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
-    "vue": "latest"
+    "vue": "latest",
+    "vue3-marquee": "^4.2.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0"

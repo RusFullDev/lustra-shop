@@ -18,13 +18,16 @@
             <p>Заказать звонок</p>
            </div>
         </div>
-        <div class="flex items-center gap-3">
-            <img src="/navbar/Vector (1).png" alt="LOGO">
-            <img src="/navbar/NORNLIGHT.png" alt="LOGO">
-            <button class="flex items-center justify-center gap-2 text-white bg-grayn border-none rounded-full px-7 py-3 font-medium text-base"><img src="/navbar/Vector.png" alt="">Каталог</button>
-            <div class="flex items-center w-2/3 relative">
-                <input type="text" placeholder="Поиск по товарам" class="px-5 outline-none rounded-full border border-grayn py-3 w-full">
-<img src="/navbar/Vector (6).png" alt="search" class="absolute top-1/2 right-5 -translate-y-1/2">
+        <div class="flex items-center gap-5 mb-[68px]">
+         
+                <img src="/navbar/Vector (1).png" alt="LOGO">
+                <img src="/navbar/NORNLIGHT.png" alt="LOGO">
+                <button class="flex items-center justify-center gap-2 text-white bg-grayn border-none rounded-full px-7 py-3 font-medium text-base"><img src="/navbar/Vector.png" alt="">Каталог</button>
+                <div class="flex items-center w-2/3 relative">
+                    <input type="text" placeholder="Поиск по товарам" class="px-5 outline-none rounded-full border border-grayn py-3 w-full pr-12">
+    <img src="/navbar/Vector (6).png" alt="search" class="absolute top-1/2 right-5 -translate-y-1/2">
+              
+
             </div>
             <div class="flex flex-col items-center gap-2 font-medium text-xs">
                 <img src="/navbar/Vector (5).png" alt="favorite">
