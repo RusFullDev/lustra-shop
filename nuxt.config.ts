@@ -4,8 +4,11 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     'nuxt-swiper',
-    // "@pinia/nuxt",
-  // '@pinia-plugin-persistedstate/nuxt',
-   // ssr: false,
-],
+    "@pinia/nuxt",
+    '@pinia-plugin-persistedstate/nuxt',
+    '@element-plus/nuxt',
+    // ssr: false,
+    'nuxt-icons',
+    "@nuxt/icon"
+  ],
 })

@@ -17,11 +17,11 @@ fechProduct()
 </script>
 
 <template>
-    <div class="p-4" v-for="item in blogs" :key="index">
+    <div class="p-4" v-for="item,index in blogs" :key="index">
         <div class="shadow-2xl bg-white p-4 rounded-md" >
             <div class="">
                     <img :src="item.image" class="w-full mb-8" />
-                <div class="flex justify-between mb-6">
+                <div class="flex justify-between items-center mb-6">
                     <p class="text-grayn  font-bold text-xl ">{{item.title}}</p>
 <img src="/Vector 4.png" alt="" class="">
                 </div>

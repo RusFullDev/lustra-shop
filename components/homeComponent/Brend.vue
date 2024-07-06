@@ -29,6 +29,7 @@ const imgArray = [
             v-for="img in imgArray"
             :key="img"
             :src="img"
+            class="ml-4"
         />
     </Vue3Marquee>
 

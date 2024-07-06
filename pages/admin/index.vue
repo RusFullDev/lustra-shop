@@ -1,17 +1,27 @@
+
 <script setup>
 definePageMeta({
-  layout: 'auth'
+    layout:'admin'
 })
+
+const router = useRouter()
+
+
 </script>
 
 <template>
-  <div>
-    <h1>Admin</h1>
-  </div>
+    <div class="container">
+        <div class="flex justify-between mb-5 ">
+            <h1 class="text-center text-2xl font-semibold font-serif">Dashboard list</h1>
+            <el-button type="primary" plain @click="router.push('/admin/create-product')">Create product</el-button>
+        </div>
+<AdminDashboardEtableProduct />
+    </div>
 </template>
 
 
 
-<style scoped>
+
+<style  scoped>
 
 </style>

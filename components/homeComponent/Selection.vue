@@ -1,4 +1,5 @@
 <script setup>
+const router = useRouter()
 const select = [
     {
         image: '/selection/Frame.png',
@@ -21,19 +22,20 @@ const select = [
         info: 'Более 1000 товаров'
     }
 ];
+
 </script>
 
 <template>
     <div class="container mb-[83px]">
         <div class="flex justify-between mb-10">
             <p class="font-bold text-grayn text-[40px] leading-[54px]">Почему NORNLIGHT?</p>
-            <button class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2">О компании-></button>
+            <button @click="router.push('/about')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2">О компании-></button>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
             <div v-for="(item, index) in select" :key="index" class="flex flex-col items-start p-10  bg-white rounded-lg shadow-md">
-                <div class="bg-grayn rounded-md p-6 mb-20">
-                    <img :src="item.image" :alt="item.title" class="w-full " />
+                <div class="bg-grayn rounded-md mb-20 w-20 h-20 flex items-center justify-center">
+                    <img :src="item.image" :alt="item.title" class="w-[55%] " />
                 </div>
                 <h3 class="text-lg font-bold mb-5">{{ item.title }}</h3>
                 <p class="text-[#D9D9D9] font-normal text-base">{{ item.info }}</p>

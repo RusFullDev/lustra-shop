@@ -1,15 +1,18 @@
 
 <script setup>
-
+definePageMeta({
+    layout:'admin'
+})
 </script>
+
 <template>
     <div>
-<ShippingPaymentShiping/>
+<h1>orders</h1>
     </div>
 </template>
 
 
 
-<style scoped>
+<style  scoped>
 
 </style>

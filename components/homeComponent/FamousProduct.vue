@@ -1,7 +1,21 @@
 
 <script setup>
+
 import ProductCard from './ProductCard.vue'
 const router = useRouter()
+import axios from "axios"
+
+const products = ref([])
+
+const fechProduct = ()=>{
+    axios.get("https://66852ec1b3f57b06dd4bb4fb.mockapi.io/famous_product/")
+.then((result) => {
+    products.value = result.data
+}).catch((err) => {
+    console.log("error",err);
+})
+}
+fechProduct()
 
 </script>
 <template>
@@ -11,8 +25,10 @@ const router = useRouter()
             <button @click="router.push('/products')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2">Все товары-></button>
         </div>
 
-      <div class=" grid grid-cols-4">
-  <ProductCard />
+      <div class=" grid grid-cols-4" >
+  <ProductCard  class="p-4" v-for="product in products" :key="product.id"  :product="product"/>
+ 
+    
       </div>
     </div>
 </template>

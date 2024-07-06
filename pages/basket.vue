@@ -1,15 +1,16 @@
-
 <script setup>
+import BasketProducts from "~/components/basket/basketProducts.vue";
 
 </script>
+
 <template>
-    <div>
-<h1>Shopping card</h1>
-    </div>
+  <div class="my-[100px]">
+
+ <BasketProducts/>
+
+    <BasketOrder/>
+    <BasketPay/>
+  </div>
 </template>
 
-
-
-<style scoped>
-
-</style>
+<style scoped></style>

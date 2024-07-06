@@ -10,17 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.0.0",
     "@pinia/nuxt": "^0.5.1",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
     "nuxt": "^3.12.2",
+    "nuxt-icons": "^3.2.1",
     "nuxt-swiper": "^1.2.2",
+    "pinia": "^2.1.7",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "vue": "latest",
     "vue3-marquee": "^4.2.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0"
+    "@element-plus/nuxt": "^1.0.9",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "element-plus": "^2.7.6"
   }
 }

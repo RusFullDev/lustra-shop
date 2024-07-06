@@ -1,10 +1,12 @@
 
 <script setup>
+import Return from '~/components/return/Return.vue';
+
 
 </script>
 <template>
     <div>
-<h1>Return</h1>
+<Return/>
     </div>
 </template>
 

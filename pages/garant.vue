@@ -1,10 +1,12 @@
 
 <script setup>
+import Garanti from '~/components/garanti/Garanti.vue';
+
 
 </script>
 <template>
     <div>
-<h1>Garant</h1>
+<Garanti/>
     </div>
 </template>
 

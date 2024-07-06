@@ -1,11 +1,12 @@
 
 <script setup>
+import Contact from '~/components/contact/Contact.vue';
+
 
 </script>
 <template>
     <div>
-<h1>Contacts</h1>
-
+<Contact/>
     </div>
 </template>
 
