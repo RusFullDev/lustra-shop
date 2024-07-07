@@ -11,4 +11,16 @@ export default defineNuxtConfig({
     'nuxt-icons',
     "@nuxt/icon"
   ],
+  //  pinia: {
+  //   autoImports: [
+  //     // автоматический импорт 'defineStore'
+  //     'defineStore',
+  //     // автоматический импорт 'acceptHMRUpdate'
+  //     'acceptHMRUpdate',
+  //   ],
+  // },
+  // plugins: [
+  //   '~/plugins/pinia.js',
+  // ],
 })
+

@@ -26,6 +26,7 @@ const isAdded = computed(() => {
 });
 
 const router = useRouter()
+
 const handlerClick=(id)=>{
 router.push(`/products/${id}`)
 
@@ -52,7 +53,7 @@ router.push(`/products/${id}`)
           <p class="text-grayn font-bold text-xl leading-[22px]">
             {{ product.newPrice }}
           </p>
-          <button @click="addBasket">   {{ isAdded ? "🗑" : "🛒" }}</button>
+          <button @click="addBasket">{{ isAdded ? "🗑" : "🛒" }}</button>
         </div>
       </div>
     </div>

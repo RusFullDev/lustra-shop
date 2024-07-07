@@ -1,9 +1,9 @@
 <script setup></script>
 <template>
   <div class="bg-foot">
-    <div class="container py-20">
-      <div class="flex gap-[150px] mb-6">
-        <div>
+    <div class="container py-12 md:py-20">
+      <div class="md:flex gap-[150px] mb-6">
+        <div class="mb-8">
             <nuxt-link to="/">
                 <div class="flex gap-3 items-center mb-[50px]">
                   <img src="/footer/Vector.png" alt="Logo" />
@@ -22,7 +22,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="mb-8">
           <p class="font-garyn font-bold text-2xl pb-8">Покупателям</p>
           <nuxt-link to="/about"
             ><p class="text-grayn/50 font-medium text-base mb-7">
@@ -54,7 +54,7 @@
           >
         </div>
 
-        <div>
+        <div class="mb-8 md:mb-0">
           <p class="font-garyn font-bold text-2xl pb-8">Товары</p>
           <p class="text-grayn/50 font-medium text-base mb-7">Люстры</p>
           <p class="text-grayn/50 font-medium text-base mb-7">Светильники</p>
@@ -63,7 +63,7 @@
           <p class="text-grayn/50 font-medium text-base mb-7">Комплектуюшие</p>
           <p class="text-grayn/50 font-medium text-base">Настольные лампы</p>
         </div>
-        <div class="pt-[60px]">
+        <div class="md:pt-[60px]">
           <p class="text-grayn/50 font-medium text-base mb-7">Споты</p>
           <p class="text-grayn/50 font-medium text-base mb-7">
             Трековые светильники

@@ -1,15 +1,15 @@
-
 <script setup>
 
 </script>
+
 <template>
     <div>
-<h1>Page not found:404</h1>
+<slot/>
     </div>
 </template>
 
 
 
-<style scoped>
+<style  scoped>
 
 </style>

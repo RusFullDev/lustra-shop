@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-[102px]">
+  <div class="mb-16 md:mb-[102px]">
     <swiper :pagination="true" :modules="modules" class="mySwiper">
       <swiper-slide><SwiperCard /></swiper-slide>
       <swiper-slide><SwiperCard /></swiper-slide>

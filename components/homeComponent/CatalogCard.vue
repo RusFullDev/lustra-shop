@@ -36,8 +36,8 @@ const katalog = [
 
 <template>
     <div v-for="item,index in katalog" :key="index" class="p-5 font-medium text-grayn text-lg leading-[22px]">
-        <div class="bg-foot p-8 flex gap-8 h-[250px] rounded-xl">
-                <div class="flex flex-col justify-between">
+        <div class="bg-foot p-8 md:flex gap-8 h-[250px] rounded-xl">
+                <div class="justify-between">
                     <p>{{item.name}}</p>
                     <p>{{item.price}}</p> 
                 </div>
