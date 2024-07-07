@@ -14,7 +14,7 @@ const router = useRouter()
             <button @click="router.push('/blog')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2">Перейти в блог-></button>
         </div>
 
-      <div class=" grid grid-cols-3">
+      <div class=" md:grid md:grid-cols-3 flex flex-wrap sm:grid grid-cols-2">
   <BlogCard />
       </div>
       <BlogDescription/>

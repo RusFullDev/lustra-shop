@@ -22,7 +22,7 @@ fechProduct()
             <div class="">
                     <img :src="item.image" class="w-full mb-8" />
                 <div class="flex justify-between items-center mb-6">
-                    <p class="text-grayn  font-bold text-xl ">{{item.title}}</p>
+                    <p class="text-grayn  font-bold text-xl h-10">{{item.title}}</p>
 <img src="/Vector 4.png" alt="" class="">
                 </div>
                 <p class=" text-grayn  text-sm font-medium mb-8">{{item.date}}</p>

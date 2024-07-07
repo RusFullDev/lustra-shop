@@ -15,9 +15,12 @@ const imgArray = [
 <template>
     <div class="mb-[72px] container flex justify-between items-center">
         <p class="font-bold text-grayn text-[40px] leading-[54px]">Только проверенные бренды</p>
-        <div class="flex gap-1">
- <img src="/brend/Vector 3 (1).png" alt="" class="border border-grayn px-6 py-3 rounded-full hover:border-gray-400">
-       <img src="/brend/Vector 3.png" alt="" class="border border-grayn px-6 py-3 rounded-full hover:border-gray-400">
+        <div class="hidden md:block">
+            <div class="flex gap-1 ">
+     <img src="/brend/Vector 3 (1).png" alt="" class="border border-grayn px-6 py-3 rounded-full hover:border-gray-400">
+           <img src="/brend/Vector 3.png" alt="" class="border border-grayn px-6 py-3 rounded-full hover:border-gray-400">
+            </div>
+
         </div>
       
 

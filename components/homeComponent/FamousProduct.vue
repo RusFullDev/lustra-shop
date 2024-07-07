@@ -22,14 +22,15 @@ fechProduct()
     <div class="container mb-12">
         <div class="flex justify-between mb-10">
             <p class="font-bold text-grayn text-[40px] leading-[54px]">Популярные товары</p>
-            <button @click="router.push('/products')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2">Все товары-></button>
+            <button @click="router.push('/products')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center px-7 py-2 hidden md:block">Все товары-></button>
         </div>
 
-      <div class=" grid grid-cols-4" >
+      <div class=" grid grid-flow-row-dense md:grid-cols-4 sm:grid-cols-2 " >
   <ProductCard  class="p-4" v-for="product in products" :key="product.id"  :product="product"/>
  
     
       </div>
+      <button @click="router.push('/products')" class="border border-grayn hover:bg-grayn hover:text-white text-grayn rounded-full font-medium text-base text-center w-full max-w-auto  py-3 md:hidden">Все товары-></button>
     </div>
 </template>
 
