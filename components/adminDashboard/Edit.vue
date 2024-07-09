@@ -11,7 +11,10 @@ const fetchProducts = () => {
       products.value = res.data;
     });
 };
+onMounted(()=>{
 fetchProducts();
+})
+
 const deleteHandler = async (id) => {
   try {
     // loading.value = true;

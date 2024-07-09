@@ -23,7 +23,7 @@ const totalQuantity = computed(() => store.totalQuantity);
                </div> 
                <div class="flex gap-6 items-center ">
                 <p>8 (800) 890-46-56</p>
-                <p>Заказать звонок</p>
+               <button class="handlerClick">Заказать звонок</button> 
                </div>
             </div>
 

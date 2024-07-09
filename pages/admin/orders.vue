@@ -1,5 +1,7 @@
 
 <script setup>
+import Orders from '~/components/adminDashboard/Orders.vue';
+
 definePageMeta({
     layout:'admin'
 })
@@ -7,7 +9,7 @@ definePageMeta({
 
 <template>
     <div>
-<h1>orders</h1>
+<Orders/>
     </div>
 </template>
 

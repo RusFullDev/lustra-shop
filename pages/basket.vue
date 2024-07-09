@@ -7,8 +7,6 @@ import BasketProducts from "~/components/basket/basketProducts.vue";
   <div class="my-[100px]">
 
  <BasketProducts/>
-
-    <BasketOrder/>
     <BasketPay/>
   </div>
 </template>
